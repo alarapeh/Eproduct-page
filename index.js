@@ -1,23 +1,23 @@
 var fullImage= document.getElementById("holder");
 function imgFunction( image){
 
-    fullImage.setAttribute("src", "/images/image-product-1.jpg");
+    fullImage.setAttribute("src", "images/image-product-1.jpg");
     return fullImage;
 }
 
 function img( image){
     
-    fullImage.setAttribute("src", "/images/image-product-2.jpg");
+    fullImage.setAttribute("src", "images/image-product-2.jpg");
     return fullImage;
 }
 function thirdImg( image) {
 
-    fullImage.setAttribute("src", "/images/image-product-3.jpg");
+    fullImage.setAttribute("src", "images/image-product-3.jpg");
     return fullImage;
 }
 function imagess( image){
 
-    fullImage.setAttribute("src", "/images/image-product-4.jpg");
+    fullImage.setAttribute("src", "images/image-product-4.jpg");
     return fullImage;
 }
 var count = document.querySelector(".count").innerHTML
