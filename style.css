@@ -207,7 +207,7 @@ b .minus {
     width: 3rem;
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:414px) {
     @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200&display=swap');
 
     * {
