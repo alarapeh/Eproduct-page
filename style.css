@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.main {
+    padding: 1rem 5rem .4rem 5rem;
+}
+
+/*  nav */
+nav {
+    border-bottom: 1px solid grey;
+
+}
+
+ul {
+    margin-right: 26rem;
+    padding: 0;
+
+}
+
+
+li {
+    display: inline;
+    text-decoration: none;
+    padding: .9rem;
+}
+
+.cart {
+    margin-top: .3rem;
+
+}
+
+.big {
+    font-size: 2rem;
+    color: hsl(0, 0%, 0%);
+    font-weight: 900;
+}
+
+/* business */
+.business {
+    padding: 5rem;
+    display: flex;
+}
+
+.img-holder1 img {
+    width: 90%;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.metrics {
+    padding: 5rem 2rem;
+}
+
+span {
+    display: flex;
+
+}
+
+.warning {
+    color: hsl(26, 100%, 55%);
+    padding-bottom: 1rem;
+}
+
+.metrics h1 {
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+
+}
+
+.lead {
+    font-size: 15px;
+    color: hsl(220, 14%, 75%);
+}
+
+.lil {
+    padding-bottom: 2rem;
+}
+
+.lill {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+span .h6 {
+    color: hsl(26, 100%, 55%);
+    background-color: hsl(25, 100%, 94%);
+    margin-left: 2rem;
+    padding: 6px;
+    border-radius: 5px;
+    height: fit-content;
+    width: 3rem;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.crossed {
+    text-decoration: line-through;
+}
+
+.img-holder2 img {
+    width: 22%;
+    padding-left: .4rem;
+    border-radius: 10;
+    cursor: pointer;
+    opacity: .6;
+    margin-top: 1rem;
+}
+
+.img-holder2 img:hover {
+    opacity: 1;
+}
+
+.c-or {
+    background-color: hsl(220, 27%, 98%);
+    color: hsl(26, 100%, 55%);
+    font-size: 3rem;
+    width: 10rem;
+    font-weight: 200;
+    border-radius: 10px;
+    height: 4rem;
+    display: flex;
+    padding: .3rem;
+
+}
+
+.plus {
+    padding-left: 2.2rem;
+
+}
+
+.count {
+    font-size: 2rem;
+    padding: .8rem;
+    margin-left: 30px;
+    color: black;
+    cursor: pointer;
+}
+
+b .minus {
+    margin-left: 1rem;
+    padding: .37rem;
+}
+
+.c-orange {
+    background-color: hsl(26, 100%, 55%);
+    color: white;
+    margin-left: 5rem;
+    width: 15rem;
+    border: none;
+    border-radius: .4rem;
+}
+
+.buttons {
+    display: flex;
+
+
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.modbody img {
+    width: 50%;
+
+}
+
+.modbody {
+    display: flex;
+}
+
+.modtext {
+    margin-left: -70px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.b {
+    padding: 21px;
+    font-size: 50px;
+
+}
+
+.mode {
+    margin-left: 44rem;
+    margin-top: 80px;
+    width: 47%;
+}
+
+.basket {
+    margin-bottom: .8rem;
+    width: 2rem;
+    margin-left: -4rem;
+}
+.person{
+    width: 3rem;
+}
+
+@media screen and (max-width:375px) {
+    @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200&display=swap');
+
+    * {
+        box-sizing: border-box;
+        padding: 0%;
+        margin: 0%;
+    }
+
+
+
+    .main {
+        padding: 0;
+    }
+
+    /*  nav */
+    nav {
+        border: none;
+        width: 0%;
+        margin-top: 0;
+
+    }
+
+    .navbar-brand {
+
+        margin-bottom: -2rem;
+        margin-left: 5rem;
+        width: 8rem;
+    }
+
+    .basket {
+        margin-bottom: -0.2rem;
+        width: 1.3rem;
+        margin-left: -4rem;
+        margin-right: 15px;
+    }
+    .person{
+        width: 2rem;
+        margin-left: -5px;
+    }
+
+
+
+
+    li {
+    
+    padding: 0.2rem;
+    font-size: 25px;
+    color: black;
+    font-weight: 800;
+    }
+
+    .cart {
+        margin-left: 23rem;
+        margin-top: -4rem;
+    }
+
+
+
+
+.navbar-toggler {
+    margin-left: 0rem;
+
+}
+
+.big {
+    font-size: 2rem;
+    color: hsl(0, 0%, 0%);
+    font-weight: 900;
+}
+
+/* business */
+.business {
+    padding: 0;
+    display: block;
+}
+
+.img-holder1 img {
+    width: 100%;
+    border-radius: 0px;
+    height: 100%;
+}
+
+.metrics {
+    padding: 2rem;
+}
+
+span {
+    display: flex;
+
+}
+
+.warning {
+    color: hsl(26, 100%, 55%);
+    padding-bottom: 1rem;
+}
+
+.metrics h1 {
+    font-size: 31px;
+    padding-bottom: 10px;
+    font-weight: 900;
+
+}
+
+.lead {
+    font-size: 15px;
+    color: hsl(220, 14%, 75%);
+}
+
+.lil {
+    padding-bottom: 10px;
+}
+
+.lill {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+span .h6 {
+    color: hsl(26, 100%, 55%);
+    background-color: hsl(25, 100%, 94%);
+    margin-left: 2rem;
+    padding: 6px;
+    border-radius: 5px;
+    height: fit-content;
+    width: 3rem;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.crossed {
+    text-decoration: line-through;
+    margin-left: 16rem;
+    margin-top: -3rem;
+}
+
+
+.img-holder2 img {
+display: none;
+}
+
+.img-holder2 img:hover {
+    opacity: 1;
+}
+
+.c-or {
+    width: 100%;
+
+}
+
+.plus {
+    padding-left: 7.2rem;
+
+}
+
+.count {
+    margin-left: 79px;
+}
+
+b .minus {
+    margin-left: 1rem;
+    padding: .37rem;
+}
+
+.c-orange {
+    
+padding: 10px;
+    margin-left: 0;
+    width: 100%;
+  margin-top: 10px;
+}
+
+.buttons {
+    display: block;
+
+
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.modbody img {
+    width: 50%;
+
+}
+
+.modbody {
+    display: flex;
+}
+
+.modtext {
+    margin-left: -45px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.b {
+    padding: 21px;
+    font-size: 50px;
+
+}
+
+.mode {
+    margin-left: 0rem;
+    margin-top: 80px;
+    width: 100%;
+}
+
+}
